@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LogoLink /> should render text logo 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #ff003c;
+  margin-left: 3.2rem;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  font-size: 2.8rem;
+  width: 108%;
+}
+
+.c1:hover {
+  color: #FFFFFF;
+  text-shadow: -1.5px -1.5px 0 #ff003c,1.5px -1.5px 0 #ff003c,-1.5px 1.5px 0 #ff003c,1.5px 1.5px 0 #ff003c;
+}
+
+.c0 {
+  color: inherit;
+  font-size: 4.0rem;
+  text-transform: uppercase;
+}
+
+@media (max-width:768px) {
+  .c1 {
+    display: none;
+  }
+}
+
+<div>
+  <h1
+    class="c0"
+  >
+    <a
+      class="c1"
+      href="#"
+    >
+      Dog Breed
+    </a>
+  </h1>
+</div>
+`;

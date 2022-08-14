@@ -1,0 +1,512 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> should not render links 1`] = `
+.c5 {
+  color: inherit;
+  font-size: 4.0rem;
+  text-transform: uppercase;
+}
+
+.c2 {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2px solid #ff003c;
+  background: #FFFFFF;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c2 .c4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 95%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+}
+
+.c0 {
+  z-index: 6;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  width: 4rem;
+  height: 4rem;
+  background: #ff003c;
+  color: #FFFFFF;
+  display: none;
+  border: none;
+}
+
+.c0 > svg {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #ff003c;
+  margin-left: 3.2rem;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  font-size: 2.8rem;
+  width: 108%;
+}
+
+.c6:hover {
+  color: #FFFFFF;
+  text-shadow: -1.5px -1.5px 0 #ff003c,1.5px -1.5px 0 #ff003c,-1.5px 1.5px 0 #ff003c,1.5px 1.5px 0 #ff003c;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+@media (max-width:768px) {
+  .c2 {
+    height: 100vh;
+    visibility: hidden;
+    opacity: 0;
+    border-bottom: none;
+  }
+
+  .c2 .c4 {
+    padding-bottom: 3.2rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c3 {
+    display: block;
+    text-align: center;
+    padding-bottom: 4.8rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c6 {
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+  }
+}
+
+<div>
+  <button
+    aria-label="Open/Close Menu"
+    class="c0"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Open Menu"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0V0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </button>
+  <div
+    class="c2"
+  >
+    <div
+      class="c3"
+    >
+      <h1
+        class="c4 c5"
+      >
+        <a
+          class="c6"
+          href="#"
+        >
+          Dog Breed
+        </a>
+      </h1>
+      <nav
+        aria-label="Main menu"
+        class="c7"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
+.c5 {
+  color: inherit;
+  font-size: 4.0rem;
+  text-transform: uppercase;
+}
+
+.c2 {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2px solid #ff003c;
+  background: #FFFFFF;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c2 .c4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 95%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+}
+
+.c0 {
+  z-index: 6;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  width: 4rem;
+  height: 4rem;
+  background: #ff003c;
+  color: #FFFFFF;
+  display: none;
+  border: none;
+}
+
+.c0 > svg {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #ff003c;
+  margin-left: 3.2rem;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  font-size: 2.8rem;
+  width: 108%;
+}
+
+.c6:hover {
+  color: #FFFFFF;
+  text-shadow: -1.5px -1.5px 0 #ff003c,1.5px -1.5px 0 #ff003c,-1.5px 1.5px 0 #ff003c,1.5px 1.5px 0 #ff003c;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c8 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.6rem;
+  color: #ff003c;
+  position: relative;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.c8:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.c8 svg {
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  width: 30px;
+  color: #ff003c;
+}
+
+.c8 svg:hover {
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+@media (max-width:768px) {
+  .c2 {
+    height: 100vh;
+    visibility: hidden;
+    opacity: 0;
+    border-bottom: none;
+  }
+
+  .c2 .c4 {
+    padding-bottom: 3.2rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c3 {
+    display: block;
+    text-align: center;
+    padding-bottom: 4.8rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c6 {
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+  }
+}
+
+<div>
+  <button
+    aria-label="Open/Close Menu"
+    class="c0"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Open Menu"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0V0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </button>
+  <div
+    class="c2"
+  >
+    <div
+      class="c3"
+    >
+      <h1
+        class="c4 c5"
+      >
+        <a
+          class="c6"
+          href="#"
+        >
+          Dog Breed
+        </a>
+      </h1>
+      <nav
+        aria-label="Main menu"
+        class="c7"
+      >
+        <a
+          class="c8"
+          target="_self"
+        >
+          chihuahua
+        </a>
+        <a
+          class="c8"
+          target="_self"
+        >
+          husky
+        </a>
+        <a
+          class="c8"
+          target="_self"
+        >
+          pug
+        </a>
+        <a
+          class="c8"
+          target="_self"
+        >
+          labrador
+        </a>
+      </nav>
+    </div>
+  </div>
+</div>
+`;

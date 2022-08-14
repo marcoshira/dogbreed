@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PhotoCard /> should match snapshot 1`] = `
+.c0 {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  height: 260px;
+  width: 260px;
+  border-radius: 5%;
+}
+
+.c0 img {
+  height: 260px;
+  width: 260px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  object-fit: cover;
+}
+
+.c0 img:hover {
+  -webkit-transform: scale(1.2) rotate(10deg);
+  -ms-transform: scale(1.2) rotate(10deg);
+  transform: scale(1.2) rotate(10deg);
+}
+
+<div>
+  <a
+    class="c0"
+  >
+    <img
+      src="img.png"
+    />
+  </a>
+</div>
+`;
