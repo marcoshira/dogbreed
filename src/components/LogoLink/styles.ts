@@ -1,5 +1,4 @@
 import styled, { css } from 'styled-components';
-import { Title } from '../Heading/styles';
 
 export const Container = styled.a`
   ${({ theme }) => css`

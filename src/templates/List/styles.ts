@@ -1,16 +1,14 @@
 import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
-  ${({ theme }) => css`
-    @keyframes rotation {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(359deg);
-      }
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
     }
-  `}
+    100% {
+      transform: rotate(359deg);
+    }
+  }
 `;
 
 export const Button = styled.button`
@@ -36,13 +34,9 @@ export const Button = styled.button`
 `;
 
 export const HeadingContainer = styled.div`
-  ${({ theme }) => css`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  `}
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 `;
 
-export const Container = styled.div`
-  ${({ theme }) => css``}
-`;
+export const Container = styled.div``;
